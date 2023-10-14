@@ -43,7 +43,8 @@ class MyLoginPage extends StatelessWidget {
                     border: OutlineInputBorder(),
                     labelText: 'Enter your email',
                     labelStyle: TextStyle(
-                        fontFamily: fontFamalyName, color: Colors.grey)),
+                        fontFamily: fontFamalyName,
+                        color: Color.fromARGB(255, 175, 175, 175))),
               ),
             ),
             const SizedBox(height: 10.0),
@@ -56,7 +57,8 @@ class MyLoginPage extends StatelessWidget {
                     border: OutlineInputBorder(),
                     labelText: 'Enter your password',
                     labelStyle: TextStyle(
-                        fontFamily: fontFamalyName, color: Colors.grey)),
+                        fontFamily: fontFamalyName,
+                        color: Color.fromARGB(255, 175, 175, 175))),
                 obscureText: true,
               ),
             ),
