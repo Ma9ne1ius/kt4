@@ -17,7 +17,7 @@ class MyLoginPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: const Text(
-          'Log In',
+          'Sing Up',
           style: TextStyle(fontFamily: fontFamalyName),
         ),
       ),
