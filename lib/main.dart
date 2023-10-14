@@ -35,26 +35,28 @@ class MyLoginPage extends StatelessWidget {
             ),
             const SizedBox(height: 15.0),
             Container(
-              color: Colors.white,
+              color: Color.fromARGB(255, 78, 78, 78),
               width: 300.0,
               padding: const EdgeInsets.all(10.0),
               child: const TextField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: 'Enter your email',
-                    labelStyle: TextStyle(fontFamily: fontFamalyName)),
+                    labelStyle: TextStyle(
+                        fontFamily: fontFamalyName, color: Colors.grey)),
               ),
             ),
             const SizedBox(height: 10.0),
             Container(
-              color: Colors.white,
+              color: Color.fromARGB(255, 78, 78, 78),
               width: 300.0,
               padding: const EdgeInsets.all(10.0),
               child: const TextField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: 'Enter your password',
-                    labelStyle: TextStyle(fontFamily: fontFamalyName)),
+                    labelStyle: TextStyle(
+                        fontFamily: fontFamalyName, color: Colors.grey)),
                 obscureText: true,
               ),
             ),
