@@ -13,6 +13,7 @@ class MyLoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     const String fontFamalyName = "Zeroes 3";
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text(
           'Log In',
@@ -26,17 +27,16 @@ class MyLoginPage extends StatelessWidget {
             const Text(
               'Get started',
               style: TextStyle(
+                color: Colors.white,
                 fontFamily: fontFamalyName,
                 fontSize: 24.0,
               ),
             ),
-            const SizedBox(height: 20.0),
+            const SizedBox(height: 15.0),
             Container(
+              color: Colors.white,
               width: 300.0,
               padding: const EdgeInsets.all(10.0),
-              // decoration: BoxDecoration(
-              //   border: Border.all(),
-              // ),
               child: const TextField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -44,13 +44,11 @@ class MyLoginPage extends StatelessWidget {
                     labelStyle: TextStyle(fontFamily: fontFamalyName)),
               ),
             ),
-            const SizedBox(height: 20.0),
+            const SizedBox(height: 10.0),
             Container(
+              color: Colors.white,
               width: 300.0,
               padding: const EdgeInsets.all(10.0),
-              // decoration: BoxDecoration(
-              //   border: Border.all(),
-              // ),
               child: const TextField(
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
